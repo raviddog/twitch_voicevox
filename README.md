@@ -11,6 +11,7 @@ Instructions are incomplete and fiddling is required.
   - install voicevox from the official website [https://voicevox.hiroshiba.jp/](https://voicevox.hiroshiba.jp/)
   - navigate to the install directory and run `run.exe` (installs to `C:\Users\[user]\AppData\Local\Programs\VOICEVOX` by default)
 - change the channel and reward ids in `voicevox.js`
+  - to get these, under client.message() just spit the entire message object to console and then redeem the reward and find the id
 - get a twitch oauth token
   - add instructions here coz this part sucks
   - add to a `config.json` under username and oauth
